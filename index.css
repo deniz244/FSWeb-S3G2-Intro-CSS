@@ -1,47 +1,73 @@
-.container {
-  margin: 0 auto;
+* {
+  border: 1px solid limegreen;
+  border-collapse: collapse;
 }
 
-.container header h1 {
-  font-family: "Chelsea Market", cursive;
-}
-
-header img {
-  border-radius: 50%;
-}
-
-a,
-p {
+body {
   font-family: "Roboto Mono", monospace;
 }
 
-.a1 {
-  margin: 0 100px 50px 150px;
-  padding: 5px 30px;
-  border-radius: 10px;
+.max_container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 5px;
   background-color: #ff764e;
   color: white;
+  text-decoration: none;
 }
 
-.a2 {
-  margin: 0 100px 50px 150px;
-  padding: 5px 30px;
-  border-radius: 10px;
+.bg_blue {
   background-color: #5ed3eb;
-  color: white;
 }
 
-.a3 {
-  margin: 0 100px 50px 150px;
-  padding: 5px 30px;
-  border-radius: 10px;
-  color: white;
+.bg_yellow {
   background-color: #ffcd69;
 }
 
-.anaMetin {
+nav {
+  margin: 0 50px 50px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.sola_kaydir {
+  float: left;
+}
+
+.saga_kaydir {
+  float: right;
+}
+
+.ortala {
   margin: 0 auto;
-  width: 1300px;
+}
+
+header h1 {
+  font-family: "Chelsea Market";
+}
+
+.intro {
+  margin-top: 50px;
+  min-height: 220px;
+  margin-bottom: 15px;
+}
+
+.intro-img img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.intro-text {
+  padding-left: 200px;
+  text-align: center;
+  max-width: 550px;
 }
 
 .anaMetin p {
@@ -51,35 +77,14 @@ p {
   padding: 0 5px;
 }
 
-.balon {
-  margin: 0 auto;
-  width: 700px;
-}
-.balon p {
-  padding: 0 200px;
+.card {
+  width: 300px;
   text-align: center;
+  margin: 10px auto;
 }
 
-.balon img {
-  padding: 0 300px;
-  width: 90px;
-  height: 90px;
-}
-
-.atv {
-  margin: 0 auto;
-  width: 700px;
-}
-
-.atv p {
-  padding: 0 200px;
-  text-align: center;
-}
-
-.atv img {
-  padding: 0 300px;
-  width: 90px;
-  height: 90pz;
+.card img {
+  width: 33%;
 }
 
 footer {
@@ -88,4 +93,7 @@ footer {
 
 footer img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center top;
 }
