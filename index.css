@@ -6,6 +6,10 @@
   font-family: "Chelsea Market", cursive;
 }
 
+header img {
+  border-radius: 50%;
+}
+
 a,
 p {
   font-family: "Roboto Mono", monospace;
@@ -35,15 +39,47 @@ p {
   background-color: #ffcd69;
 }
 
-.comtainer header img {
-  border-radius: 50%;
-  width: 300px;
-  display: inline-block;
+.anaMetin {
+  margin: 0 auto;
+  width: 1300px;
 }
 
-.anaMetin {
+.anaMetin p {
   background-color: #ddb9a3;
   color: white;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.balon {
+  margin: 0 auto;
+  width: 700px;
+}
+.balon p {
+  padding: 0 200px;
+  text-align: center;
+}
+
+.balon img {
+  padding: 0 300px;
+  width: 90px;
+  height: 90px;
+}
+
+.atv {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.atv p {
+  padding: 0 200px;
+  text-align: center;
+}
+
+.atv img {
+  padding: 0 300px;
+  width: 90px;
+  height: 90pz;
 }
 
 footer {
